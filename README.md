@@ -1,2 +1,2 @@
-# Web_Su_SASS
+# Web_KidSu_SASS
 SASS Practice 2024.11.08
