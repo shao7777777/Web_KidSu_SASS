@@ -1,0 +1,131 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  color: #3e3939;
+}
+
+/* 導覽列 */
+nav {
+  background-color: #072E4F;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #66c0f4;
+}
+
+/* 橫幅 */
+.banner {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/api/placeholder/1920/1080");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+/* 內容區塊共用樣式 */
+section {
+  padding: 5rem 2rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a4c6b;
+  margin-bottom: 3rem;
+}
+
+/* 自我描述 */
+#about {
+  background-color: #e6f3ff;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+/* 朋友介紹 */
+#friends {
+  background-color: #fff;
+}
+
+.friends-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.friend-card {
+  background-color: #e6f3ff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.friend-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* 居住地 */
+#home {
+  background-color: #e6f3ff;
+}
+
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 工作 */
+#work {
+  background-color: #fff;
+}
+
+.work-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 頁尾 */
+footer {
+  background-color: #1a4c6b;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}/*# sourceMappingURL=style.css.map */
